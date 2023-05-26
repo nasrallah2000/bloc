@@ -1,4 +1,4 @@
-import 'package:bloc/ui/screens/counter/counter_view.dart';
+import 'package:blocproject/ui/screens/counter/view/counter_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.teal,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: const CounterView(),
     );
